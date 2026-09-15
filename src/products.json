@@ -1,42 +1,42 @@
 [
   {
     "name": "Brown Sugar Milk Tea",
-    "href": "https://en.manayerbamate.com/products/melon-et-menthe",
-    "image": "/assets/bubble-tea-hero.png",
-    "image2x": "/assets/bubble-tea-hero.png 2x",
-    "hover": "/assets/bubble-tea-collection.png",
-    "hover2x": "/assets/bubble-tea-collection.png 2x"
+    "href": "#products",
+    "image": "bubble-tea-hero.png",
+    "image2x": "bubble-tea-hero.png",
+    "hover": "bubble-tea-collection.png",
+    "hover2x": "bubble-tea-collection.png"
   },
   {
     "name": "Passion Fruit Green Tea",
-    "href": "https://en.manayerbamate.com/products/pamplemousse",
-    "image": "/assets/bubble-tea-collection.png",
-    "image2x": "/assets/bubble-tea-collection.png 2x",
-    "hover": "/assets/bubble-tea-hero.png",
-    "hover2x": "/assets/bubble-tea-hero.png 2x"
+    "href": "#products",
+    "image": "bubble-tea-collection.png",
+    "image2x": "bubble-tea-collection.png",
+    "hover": "bubble-tea-hero.png",
+    "hover2x": "bubble-tea-hero.png"
   },
   {
     "name": "Berry Jasmine Tea",
-    "href": "https://en.manayerbamate.com/products/mure-et-hibiscus",
-    "image": "/assets/bubble-tea-hero.png",
-    "image2x": "/assets/bubble-tea-hero.png 2x",
-    "hover": "/assets/bubble-tea-collection.png",
-    "hover2x": "/assets/bubble-tea-collection.png 2x"
+    "href": "#products",
+    "image": "bubble-tea-hero.png",
+    "image2x": "bubble-tea-hero.png",
+    "hover": "bubble-tea-collection.png",
+    "hover2x": "bubble-tea-collection.png"
   },
   {
     "name": "Mango Oolong Tea",
-    "href": "https://en.manayerbamate.com/products/punch-tropical",
-    "image": "/assets/bubble-tea-collection.png",
-    "image2x": "/assets/bubble-tea-collection.png 2x",
-    "hover": "/assets/bubble-tea-hero.png",
-    "hover2x": "/assets/bubble-tea-hero.png 2x"
+    "href": "#products",
+    "image": "bubble-tea-collection.png",
+    "image2x": "bubble-tea-collection.png",
+    "hover": "bubble-tea-hero.png",
+    "hover2x": "bubble-tea-hero.png"
   },
   {
     "name": "Tea House Tasting Set",
-    "href": "https://en.manayerbamate.com/products/boite-decouverte",
-    "image": "/assets/bubble-tea-collection.png",
-    "image2x": "/assets/bubble-tea-collection.png 2x",
-    "hover": "/assets/bubble-tea-hero.png",
-    "hover2x": "/assets/bubble-tea-hero.png 2x"
+    "href": "#products",
+    "image": "bubble-tea-collection.png",
+    "image2x": "bubble-tea-collection.png",
+    "hover": "bubble-tea-hero.png",
+    "hover2x": "bubble-tea-hero.png"
   }
 ]

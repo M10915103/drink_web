@@ -1,12 +1,13 @@
 import {useEffect,useRef} from 'react';
 import lottie from 'lottie-web';
+import {assetUrl} from '../assetUrl';
 
 /** Owns one animation; offscreen animations pause and unmounts dispose it. */
 export default function Lottie({file,className='',children,loop=true,...props}){
   const host=useRef(null);
   useEffect(()=>{
     const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const animation=lottie.loadAnimation({container:host.current,renderer:'svg',loop,autoplay:false,path:'/assets/'+file});
+    const animation=lottie.loadAnimation({container:host.current,renderer:'svg',loop,autoplay:false,path:assetUrl(file)});
     animation.addEventListener('DOMLoaded',()=>{if(reduce)animation.goToAndStop(30,true);});
     const observer=new IntersectionObserver(([entry])=>{
       if(!reduce&&entry.isIntersecting)animation.play();else animation.pause();

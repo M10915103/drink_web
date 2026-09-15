@@ -1,6 +1,7 @@
 import {useEffect,useRef} from 'react';
 import {gsap} from 'gsap';
 import {ScrollTrigger} from 'gsap/ScrollTrigger';
+import {assetUrl} from '../assetUrl';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -33,6 +34,6 @@ export default function CanScene({flavor=3}){
   },[]);
   const drink=drinks[flavor]||drinks[3];
   return <div ref={host} className="mainCanvas bubbleCanvas f flex flexCe flexJCe" data-loaded="true">
-    <img ref={image} className="bubble-hero" src="/assets/bubble-tea-hero.png" alt={drink.name} style={{filter:drink.filter}}/>
+    <img ref={image} className="bubble-hero" src={assetUrl('bubble-tea-hero.png')} alt={drink.name} style={{filter:drink.filter}}/>
   </div>;
 }

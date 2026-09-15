@@ -22,5 +22,5 @@ export default function Hero(){
   },root);
   return()=>ctx.revert();
  },[]);
- return <section ref={root} className="shopify-section c-HomeHero" aria-label="Handcrafted bubble tea flavors and benefits"><div className="c-HomeHero-fond"><h1 className="sr-only">Tea House — handcrafted bubble tea</h1><HeroMarkup flavor={flavor} onChange={delta=>setStep(s=>s+delta)}/><BenefitsMarkup/></div><div className="offCanvas"/></section>;
+ return <section id="home" ref={root} className="shopify-section c-HomeHero" aria-label="Handcrafted bubble tea flavors and benefits"><div className="c-HomeHero-fond"><h1 className="sr-only">Tea House — handcrafted bubble tea</h1><HeroMarkup flavor={flavor} onChange={delta=>setStep(s=>s+delta)}/><BenefitsMarkup/></div><div className="offCanvas"/></section>;
 }

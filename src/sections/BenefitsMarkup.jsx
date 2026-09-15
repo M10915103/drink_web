@@ -1,11 +1,12 @@
 import React from 'react';
 import Lottie from '../components/Lottie';
+import {assetUrl} from '../assetUrl';
 
 export default function BenefitsMarkup({flavor, onChange} = {}) {
   return (
     <div className="margeNeg negativ">
       <div className="sectionCercle sectionCercleH h100 r">
-        <img src="/assets/inline-001.svg" className="a arc" alt="" aria-hidden="true" />
+        <img src={assetUrl('inline-001.svg')} className="a arc" alt="" aria-hidden="true" />
         <div className="innerCercle innerCercleCartes innerCercleH a">
           <div className="cercle a">
             <div className="etape h100 flex flexCe flexJCe etapeText">
@@ -84,16 +85,16 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
           <div className="cercle a">
             <div className="etape etapeSpe h100 flex flexCe flexJCe r">
               <div className="innerEtoiles">
-                <img src="/assets/inline-002.svg" className="rainbow rainbowSpe visibleFR" alt="" aria-hidden="true" />
-                <img src="/assets/inline-003.svg" className="rainbow rainbowSpe visibleEN" alt="" aria-hidden="true" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
-                <img className="etoile etoileBulle a" src="/assets/bulle.svg" />
+                <img src={assetUrl('inline-002.svg')} className="rainbow rainbowSpe visibleFR" alt="" aria-hidden="true" />
+                <img src={assetUrl('inline-003.svg')} className="rainbow rainbowSpe visibleEN" alt="" aria-hidden="true" />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
+                <img className="etoile etoileBulle a" src={assetUrl('bulle.svg')} />
               </div>
-              <img src="/assets/inline-004.svg" className="allBulles a" alt="" aria-hidden="true" />
+              <img src={assetUrl('inline-004.svg')} className="allBulles a" alt="" aria-hidden="true" />
             </div>
           </div>
         </div>
