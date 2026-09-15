@@ -6,7 +6,7 @@ export default function Header(){
  useEffect(()=>{const close=e=>{if(e.key==='Escape'||(e.type==='pointerdown'&&!root.current?.contains(e.target)))setMenu(null);};window.addEventListener('keydown',close);window.addEventListener('pointerdown',close);return()=>{window.removeEventListener('keydown',close);window.removeEventListener('pointerdown',close);};},[]);
  return <header className="site-header" ref={root}>
   {banner&&<div className="announcement"><a href={base+'/collections/all'}>FREE SHIPPING ON ALL PURCHASES OF $35 OR MORE QUEBEC AND ONTARIO</a><button aria-label="Dismiss shipping announcement" onClick={()=>setBanner(false)}>×</button></div>}
-<nav className="main-nav" aria-label="Main navigation"><a href="#" className="brand" aria-label="Tea House home"><img src="/assets/mana-logo.svg" alt="Tea House"/></a><div className="nav-links">
+<nav className="main-nav" aria-label="Main navigation"><a href="#" className="brand tea-brand" aria-label="Tea House home"><span>TEA<br/>HOUSE</span></a><div className="nav-links">
    <button className="nav-pill" aria-expanded={menu==='shop'} onClick={()=>setMenu(menu==='shop'?null:'shop')}>Shop <span className="chevron"/></button>
    <button className="nav-pill" aria-expanded={menu==='learn'} onClick={()=>setMenu(menu==='learn'?null:'learn')}>Learn <span className="chevron"/></button>
    <a className="nav-pill subscription-link" href={base+'/pages/abonnement'}>Subscription</a><a className="nav-pill language" href="https://manayerbamate.com/">Fr</a>
