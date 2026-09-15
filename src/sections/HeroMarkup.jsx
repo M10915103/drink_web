@@ -147,40 +147,40 @@ export default function HeroMarkup({flavor, onChange} = {}) {
             <a href="https://en.manayerbamate.com/products/pamplemousse" className={"btn btnOmbre r" + (flavor === 0 ? ' current' : '')}>
               <span style={{"backgroundColor":"rgb(241, 91, 64)"}}>
                 <span className="premier">
-                  {"Grapefruit"}
+                  {"Passion Fruit"}
                 </span>
                 <span className="a second">
-                  {"Grapefruit"}
+                  {"Passion Fruit"}
                 </span>
               </span>
             </a>
             <a href="https://en.manayerbamate.com/products/mure-et-hibiscus" className={"btn btnOmbre r btnOmbreBleu" + (flavor === 1 ? ' current' : '')}>
               <span style={{"backgroundColor":"rgb(43, 61, 115)"}}>
                 <span className="premier">
-                  {"Blackberry & Hibiscus"}
+                  {"Berry Jasmine"}
                 </span>
                 <span className="a second">
-                  {"Blackberry & Hibiscus"}
+                  {"Berry Jasmine"}
                 </span>
               </span>
             </a>
             <a href="https://en.manayerbamate.com/products/punch-tropical" className={"btn btnOmbre r btnOmbreRouge" + (flavor === 2 ? ' current' : '')}>
               <span style={{"backgroundColor":"rgb(231, 47, 99)"}}>
                 <span className="premier">
-                  {"Tropical"}
+                  {"Mango Oolong"}
                 </span>
                 <span className="a second">
-                  {"Tropical"}
+                  {"Mango Oolong"}
                 </span>
               </span>
             </a>
             <a href="https://en.manayerbamate.com/products/melon-et-menthe" className={"btn btnOmbre r btnOmbreVert" + (flavor === 3 ? ' current' : '')}>
               <span style={{"backgroundColor":"rgb(25, 94, 28)"}}>
                 <span className="premier">
-                  {"Melon & Mint"}
+                  {"Brown Sugar"}
                 </span>
                 <span className="a second">
-                  {"Melon & Mint"}
+                  {"Brown Sugar"}
                 </span>
               </span>
             </a>

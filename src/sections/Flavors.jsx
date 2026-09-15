@@ -8,25 +8,25 @@ export default function Flavors({flavor, onChange} = {}) {
         <div className="innerEtoiles r">
           <h2 className="grosTitre grosTitreSpe rainbow">
             <span className="c-beige lettre ls">
-              {"F"}
+              {"T"}
             </span>
             <span className="c-beige lettre la">
-              {"l"}
+              {"e"}
             </span>
             <span className="c-beige lettre lv">
               {"a"}
             </span>
             <span className="c-beige lettre le">
-              {"v"}
+              {" "}
             </span>
             <span className="c-beige lettre lu">
-              {"o"}
+              {"F"}
             </span>
             <span className="c-beige lettre lr">
-              {"r"}
+              {"l"}
             </span>
             <span className="c-beige lettre ls">
-              {"s"}
+              {"avors"}
             </span>
           </h2>
           <div className="parallaxEtoile">
@@ -41,7 +41,7 @@ export default function Flavors({flavor, onChange} = {}) {
         </div>
         <div className="wrap">
           <p className="petitTexte">
-            {"Fresh, fruity, sparkling, beautiful colours, awaken your taste buds."}
+            {"Fresh tea, creamy milk, chewy pearls and bright fruit awaken your taste buds."}
           </p>
         </div>
       </section>

@@ -11,12 +11,12 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
             <div className="etape h100 flex flexCe flexJCe etapeText">
               <div>
                 <h2>
-                  {"Mana ? Yerba Maté ?"}
+                  {"Tea House ? Bubble Tea ?"}
                   <br />
-                  {"What are we talking about?"}
+                  {"What are we pouring today?"}
                 </h2>
                 <p className="h5">
-                  {"(we're going to tell each other the real things)"}
+                  {"(freshly shaken, just for you)"}
                 </p>
               </div>
             </div>
@@ -25,11 +25,11 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
             <div className="etape h100 flex flexCe flexJCe etapeBenefice">
               <div className="data">
                 <div className="haut">
-                  {"Without the crash"}
+                  {"Steady pick-me-up"}
                 </div>
                 <div className="bas r">
                   <p className="petitTexte2">
-                    {"A gentle wave of energy. To get you going without the crash."}
+                    {"A smooth tea lift that keeps your afternoon moving."}
                   </p>
                   <Lottie file="carte_crash.json" />
                 </div>
@@ -40,11 +40,11 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
             <div className="etape h100 flex flexCe flexJCe etapeBenefice">
               <div className="data">
                 <div className="haut">
-                  {"Natural caffeine"}
+                  {"Real brewed tea"}
                 </div>
                 <div className="bas r">
                   <p className="petitTexte2">
-                    {"This certified organic caffeine comes from the plant. A gift from Mother Nature."}
+                    {"Brewed tea leaves bring a clean, naturally balanced boost."}
                   </p>
                   <Lottie file="carte_caf.json" />
                 </div>
@@ -55,11 +55,11 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
             <div className="etape h100 flex flexCe flexJCe etapeBenefice">
               <div className="data">
                 <div className="haut">
-                  {"Antioxidant"}
+                  {"Fruit-forward"}
                 </div>
                 <div className="bas r">
                   <p className="petitTexte2">
-                    {"Richer in antioxidants than tea. Not bad."}
+                    {"Bright fruit and fragrant tea in every colourful sip."}
                   </p>
                   <Lottie file="carte_antiox.json" />
                 </div>
@@ -70,11 +70,11 @@ export default function BenefitsMarkup({flavor, onChange} = {}) {
             <div className="etape h100 flex flexCe flexJCe etapeBenefice">
               <div className="data">
                 <div className="haut">
-                  {"Vegan"}
+                  {"Made your way"}
                 </div>
                 <div className="bas r">
                   <p className="petitTexte2">
-                    {"A plant-based drink that tastes like heaven. Who could ask for more?"}
+                    {"Choose your milk, sweetness and pearls for a cup that is all yours."}
                   </p>
                   <Lottie file="carte_vege.json" />
                 </div>

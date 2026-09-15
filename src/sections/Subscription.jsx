@@ -8,12 +8,12 @@ export default function Subscription({flavor, onChange} = {}) {
         <img src="/assets/inline-005.svg" className="tenBoirais rainbow visibleFR" alt="" aria-hidden="true" />
         <img src="/assets/inline-006.svg" className="tenBoirais rainbow visibleEN" alt="" aria-hidden="true" />
         <p className="inscrisToi">
-          {"Sign up for automatic delivery* and save 10%."}
+          {"Join our tea club* and save 10% on every handcrafted cup."}
         </p>
         <div className="flex flexJCe">
           <a href="https://en.manayerbamate.com/pages/abonnement" className="btn btnOmbre r current">
             <span>
-              {"Subscribe"}
+              {"Join the tea club"}
             </span>
           </a>
         </div>
@@ -22,14 +22,14 @@ export default function Subscription({flavor, onChange} = {}) {
           <p className="a">
             {"We have"}
             <br />
-            {"what"}
+            {"your"}
             <br />
-            {"you need"}
+            {"perfect cup"}
           </p>
         </div>
         <Lottie className="lottieFusee" file="lottie_hibi_3.json" />
         <small className="details a">
-          {"* We don't deliver in space yet, but who knows..."}
+          {"* Pick up in store or order ahead for your next tea break."}
         </small>
         <img src="/assets/inline-007.svg" className="arrondi" alt="" aria-hidden="true" />
       </div>

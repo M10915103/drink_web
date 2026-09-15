@@ -1,6 +1,6 @@
 [
   {
-    "name": "Melon & Mint",
+    "name": "Brown Sugar Milk Tea",
     "href": "https://en.manayerbamate.com/products/melon-et-menthe",
     "image": "/assets/1-1eie_827x980.jpg",
     "image2x": "/assets/1-1eie_827x980_crop_center@2x.jpg 2x",
@@ -8,7 +8,7 @@
     "hover2x": "/assets/2-1eie_827x980_crop_center@2x.jpg 2x"
   },
   {
-    "name": "Grapefruit",
+    "name": "Passion Fruit Green Tea",
     "href": "https://en.manayerbamate.com/products/pamplemousse",
     "image": "/assets/pamplemousse-01_827x980.jpg",
     "image2x": "/assets/pamplemousse-01_827x980_crop_center@2x.jpg 2x",
@@ -16,7 +16,7 @@
     "hover2x": "/assets/pamplemousse-02_827x980_crop_center@2x.jpg 2x"
   },
   {
-    "name": "Blackberry & Hibiscus",
+    "name": "Berry Jasmine Tea",
     "href": "https://en.manayerbamate.com/products/mure-et-hibiscus",
     "image": "/assets/mures-01_1f205ae0-9697-4285-bb1b-88a2d02ce70d_827x980.jpg",
     "image2x": "/assets/mures-01_1f205ae0-9697-4285-bb1b-88a2d02ce70d_827x980_crop_center@2x.jpg 2x",
@@ -24,7 +24,7 @@
     "hover2x": "/assets/mures-02_827x980_crop_center@2x.jpg 2x"
   },
   {
-    "name": "Tropical",
+    "name": "Mango Oolong Tea",
     "href": "https://en.manayerbamate.com/products/punch-tropical",
     "image": "/assets/tropical-01_827x980.jpg",
     "image2x": "/assets/tropical-01_827x980_crop_center@2x.jpg 2x",
@@ -32,7 +32,7 @@
     "hover2x": "/assets/tropical-02_827x980_crop_center@2x.jpg 2x"
   },
   {
-    "name": "Discovery box",
+    "name": "Tea House Tasting Set",
     "href": "https://en.manayerbamate.com/products/boite-decouverte",
     "image": "/assets/tropical-01_600x490_crop_center_2x-_2_937b035e-e510-48a2-8a8d-fbeab24afbc7_827x980.jpg",
     "image2x": "/assets/tropical-01_600x490_crop_center_2x-_2_937b035e-e510-48a2-8a8d-fbeab24afbc7_827x980_crop_center@2x.jpg 2x",
